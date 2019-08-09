@@ -1,3 +1,7 @@
+// The JavaScript keyword this has a very special place in the language. It is something that is passed to the function
+// depending upon how you call it (somewhat like a function argument). The simplest way to think of it is that it refers to
+// the calling context. The calling context is the prefix used to call a function. Listing 2-34 demonstrates its basic usage.
+
 foo = {
     bar: 123,
     bas: function () {
